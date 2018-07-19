@@ -12,6 +12,10 @@ export class DashboardComponent implements OnInit {
     this.userData = 'loading...';
   }
 
+  handleClick(): void {
+    console.log(`User clicked button to retrieve user data`);
+  }
+
   ngOnInit() {
   }
 
