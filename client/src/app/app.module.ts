@@ -7,13 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { GithubLoginComponent } from './github-login/github-login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubLoginComponent,
     DashboardComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
