@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-not-found-page',
+  selector: 'app-preview-page',
   template: `
     <p>
-      not-found-page works!
+      preview-page works!
     </p>
-  `
+  `,
+  styles: []
 })
-export class NotFoundPageComponent implements OnInit {
+export class PreviewPageComponent implements OnInit {
 
   constructor() { }
 

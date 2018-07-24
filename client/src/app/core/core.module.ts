@@ -5,9 +5,11 @@ import { RouterModule } from '@angular/router';
 import { MaterialModule } from '../material';
 import { AppComponent } from './containers/app.component';
 import { NotFoundPageComponent } from './containers/not-found-page.component';
+import { HomePageComponent } from './containers/home-page.component';
 
 export const COMPONENTS = [
   AppComponent,
+  HomePageComponent,
   NotFoundPageComponent
 ];
 

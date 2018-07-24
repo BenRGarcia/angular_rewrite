@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-not-found-page',
+  selector: 'app-templates-page',
   template: `
     <p>
-      not-found-page works!
+      templates-page works!
     </p>
-  `
+  `,
+  styles: []
 })
-export class NotFoundPageComponent implements OnInit {
+export class TemplatesPageComponent implements OnInit {
 
   constructor() { }
 

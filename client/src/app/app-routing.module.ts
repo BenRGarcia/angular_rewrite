@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { NotFoundPageComponent } from './core/containers/not-found-page.component';
 import { AppComponent } from './core/containers/app.component';
+import { HomePageComponent } from './core/containers/home-page.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
+  { path: '', component: HomePageComponent },
   {
     path: 'dashboard',
     loadChildren: './dashboard/dashboard.module#DashboardModule'
@@ -14,7 +15,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { useHash: true })
+    RouterModule.forRoot(routes)
   ],
   exports: [
     RouterModule
